@@ -17,19 +17,24 @@
                                 <div class="mb-3 col-md-6">
                                     <label class="form-label">เลือกปี</label>
                                     <select class="select2 form-select" name="year">
-                                        <option value="{{$employee_work->year}}">{{$employee_work->year}}</option>
-                                        <option value="2021">2021</option>
-                                        <option value="2022">2022</option>
-                                        <option value="2023">2023</option>
-                                        <option value="2024">2024</option>
+                                        <option value="{{ $employee_work->year }}">{{ $employee_work->year }}</option>
                                         <option value="2025">2025</option>
                                         <option value="2026">2026</option>
+                                        <option value="2027">2027</option>
+                                        <option value="2028">2028</option>
+                                        <option value="2029">2029</option>
+                                        <option value="2030">2030</option>
+                                        <option value="2030">2031</option>
+                                        <option value="2030">2032</option>
+                                        <option value="2030">2033</option>
+                                        <option value="2030">2034</option>
+                                        <option value="2030">2035</option>
                                     </select>
                                 </div>
                                 <div class="mb-3 col-md-6">
                                     <label class="form-label">เลือกเดือน</label>
                                     <select class="select2 form-select" name="month">
-                                        <option value="{{$employee_work->month}}">{{$employee_work->month}}</option>
+                                        <option value="{{ $employee_work->month }}">{{ $employee_work->month }}</option>
                                         <option value="มกราคม">มกราคม</option>
                                         <option value="กุมภาพันธ์">กุมภาพันธ์</option>
                                         <option value="มีนาคม">มีนาคม</option>
@@ -46,38 +51,38 @@
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label">บวกอื่นๆ</label>
-                                    <input type="text" name="charge" class="form-control" value="{{$employee_work->charge}}"
-                                        style="font-family:'Sarabun';" />
+                                    <input type="text" name="charge" class="form-control"
+                                        value="{{ $employee_work->charge }}" style="font-family:'Sarabun';" />
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label">ขาด (วัน)</label>
-                                    <input type="text" name="absence" class="form-control" value="{{$employee_work->absence}}"
-                                        style="font-family:'Sarabun';" />
+                                    <input type="text" name="absence" class="form-control"
+                                        value="{{ $employee_work->absence }}" style="font-family:'Sarabun';" />
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label">สาย (วัน)</label>
-                                    <input type="text" name="late" class="form-control" value="{{$employee_work->late}}"
-                                        style="font-family:'Sarabun';" />
+                                    <input type="text" name="late" class="form-control"
+                                        value="{{ $employee_work->late }}" style="font-family:'Sarabun';" />
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label">ค่าประกันสังคม</label>
-                                    <input type="text" name="insurance" class="form-control" value="{{$employee_work->insurance}}"
-                                        style="font-family:'Sarabun';" />
+                                    <input type="text" name="insurance" class="form-control"
+                                        value="{{ $employee_work->insurance }}" style="font-family:'Sarabun';" />
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label">หักอื่นๆ</label>
-                                    <input type="text" name="deduct" class="form-control" value="{{$employee_work->deduct}}"
-                                        style="font-family:'Sarabun';" />
+                                    <input type="text" name="deduct" class="form-control"
+                                        value="{{ $employee_work->deduct }}" style="font-family:'Sarabun';" />
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label">ค่าความสามารถ</label>
-                                    <input type="text" name="skill" class="form-control" value="{{$employee_work->skill}}"
-                                        style="font-family:'Sarabun';" />
+                                    <input type="text" name="skill" class="form-control"
+                                        value="{{ $employee_work->skill }}" style="font-family:'Sarabun';" />
                                 </div>
                                 <div class="col-md-6 mb-3"></div>
                                 <div class="col-md-12 mb-3">
                                     <label class="form-label">หมายเหตุ</label>
-                                    <textarea class="form-control" rows="3" name="comment" style="font-family:'Sarabun';">{{$employee_work->comment}}</textarea>
+                                    <textarea class="form-control" rows="3" name="comment" style="font-family:'Sarabun';">{{ $employee_work->comment }}</textarea>
                                 </div>
                                 <div class="mt-2">
                                     <input type="hidden" name="id" value="{{ $employee_work->id }}">
