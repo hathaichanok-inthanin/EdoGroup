@@ -18,4 +18,4 @@ EdoGroup เป็นระบบ Web Application ที่พัฒนาขึ
 * **Payroll Accuracy:** พัฒนา Logic การคำนวณเงินเดือนที่ซับซ้อน (Base Salary + OT + Incentives - Deductions) ให้มีความแม่นยำสูงและตรวจสอบย้อนหลังได้
 * **Data Privacy:** ออกแบบระบบรักษาความปลอดภัยของข้อมูลเงินเดือน (Salary Confidentiality) โดยใช้การเข้ารหัสและการจัดการสิทธิ์การเข้าถึงอย่างรัดกุม
 
-## System Preview
+## Project Preview
