@@ -19,8 +19,5 @@ EdoGroup เป็นระบบ Web Application ที่พัฒนาขึ
 * **Data Privacy:** ออกแบบระบบรักษาความปลอดภัยของข้อมูลเงินเดือน (Salary Confidentiality) โดยใช้การเข้ารหัสและการจัดการสิทธิ์การเข้าถึงอย่างรัดกุม
 
 ## Project Preview
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/b1d46409-f595-4bc6-a8d9-7f9e00e59cf9" />
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/896068b9-5676-4304-85e8-ee9996eb839b" />
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/02f9e7d3-d3f3-4cd7-be51-a9f528d4f5ac" />
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/c6d0e067-1a5a-403b-81a3-3bfda27bdff7" />
+
 
