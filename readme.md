@@ -20,3 +20,5 @@ EdoGroup เป็นระบบ Web Application ที่พัฒนาขึ
 
 ## Project Preview
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/896068b9-5676-4304-85e8-ee9996eb839b" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/c6d0e067-1a5a-403b-81a3-3bfda27bdff7" />
+
